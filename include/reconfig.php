@@ -18,6 +18,15 @@ try {
 $set = $rstate->query("SELECT * FROM `tbl_setting`")->fetch_assoc();
 date_default_timezone_set($set['timezone']);
 
+// Fetch main property info
 $main = $rstate->query("SELECT * FROM `tbl_prop`")->fetch_assoc();
+if($main['p_key'] != $set['d_key'])
+{
+	?>
+	<script>
+	window.location.href="validate_domain.php";
+	</script>
+	<?php 
+}
 ?>
 
