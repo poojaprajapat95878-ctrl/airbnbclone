@@ -36,8 +36,7 @@ require 'include/main_head.php';
       </div>
       <!-- latest jquery-->
      <?php 
-require 'include/footer.php';
-?>
+
     </div>
   </body>
 </html>
