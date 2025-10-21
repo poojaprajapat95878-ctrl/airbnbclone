@@ -1,7 +1,5 @@
 <?php 
 include 'include/reconfig.php';
-include 'include/estate.php';
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
