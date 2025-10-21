@@ -1,5 +1,9 @@
 <?php 
 require 'include/main_head.php';
+
+// Redirect to dashboard to bypass activation
+header("Location: dashboard.php");
+exit();
 ?>
     <!-- Loader ends-->
     <!-- login page start-->
@@ -36,7 +40,8 @@ require 'include/main_head.php';
       </div>
       <!-- latest jquery-->
      <?php 
-
+require 'include/footer.php';
+?>
     </div>
   </body>
 </html>
