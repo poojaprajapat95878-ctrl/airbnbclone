@@ -17,7 +17,7 @@ require 'include/main_head.php';
                   <div class="form-group">
                     <label class="col-form-label">Enter Envato Purchase Code</label>
                     <div class="form-input position-relative">
-                      <input type="text" class="form-control" id="inputCode" placeholder="Enter Envato Purchase Code" required="">
+                      <input type="text" class="form-control" id="inputCode" placeholder="Enter Envato Purchase Code">
                       
                     </div>
                   </div>
