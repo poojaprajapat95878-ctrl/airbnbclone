@@ -1,17 +1,3 @@
-<?php 
-if(isset($_SESSION['restatename']))
-{
-	
-}
-else 
-{
-	?>
-	<script>
-	window.location.href="/";
-	</script>
-	<?php 
-}
-?>
 <div class="sidebar-wrapper">
           <div>
             <div class="logo-wrapper"><a href="dashboard.php"><img class="img-fluid for-light" src="<?php echo $set['weblogo'];?>" alt=""><img class="img-fluid for-dark" src="assets/images/logo/logo-dark.png" alt=""></a>
