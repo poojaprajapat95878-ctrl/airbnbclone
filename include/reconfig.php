@@ -4,7 +4,7 @@ if (session_status() == PHP_SESSION_NONE) {
 }
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 try {
-  $rstate = new mysqli("localhost", "username", "password", "database");
+  $rstate = new mysqli("sql105.ezyro.com", "ezyro_40218432", "59076358d4df375", "ezyro_40218432_houssie");
   $rstate->set_charset("utf8mb4");
 } catch(Exception $e) {
   error_log($e->getMessage());
